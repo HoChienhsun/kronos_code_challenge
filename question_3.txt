@@ -1,0 +1,4 @@
+the code are not the same, first of all, for method1, there are two functions and each of these two functions got corresponding callback function.
+That means the after the event be evoked, the callback will be executed, however, how the window print 1 and 2 will not be in order; 
+for the async function, delay_print_promise() and another delay_print_promise() will be executes in order,
+but console.log(1) and console.log(2) will not be executed by order.
